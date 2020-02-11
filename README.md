@@ -40,6 +40,11 @@ with any editor, Shadowsocks will notify browsers about the change automatically
 2. You can also update PAC file from [GFWList] \(maintained by 3rd party)
 3. You can also use online PAC URL
 
+For Windows10 Store and related applications, please execute the following command under Admin privilege:
+```
+netsh winhttp import proxy source=ie
+```
+
 #### Server Auto Switching
 
 1. Load balance: choosing server randomly
@@ -147,4 +152,4 @@ Sysproxy ()            https://github.com/Noisyfox/sysproxy
 [Visual C++ 2015 Redistributable]:     https://www.microsoft.com/en-us/download/details.aspx?id=53840
 [GPLv3]:        https://github.com/shadowsocks/shadowsocks-windows/blob/master/LICENSE.txt
 [Working with non SIP003 standard Plugin]: https://github.com/shadowsocks/shadowsocks-windows/wiki/Working-with-non-SIP003-standard-Plugin
-[Experimental Features]: https://github.com/shadowsocks/shadowsocks-windows/blob/master/Experimental.md
+[Experimental Features]: https://github.com/shadowsocks/shadowsocks-windows/wiki/Experimental
